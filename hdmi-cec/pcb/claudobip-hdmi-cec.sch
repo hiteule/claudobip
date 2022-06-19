@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -367,312 +367,6 @@
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="27" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="v-reg" urn="urn:adsk.eagle:library:409">
-<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DPACK" urn="urn:adsk.eagle:footprint:30314/1" library_version="5">
-<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;
-PLASTIC PACKAGE CASE 369C-01&lt;br&gt;
-Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
-<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
-<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
-<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
-<smd name="4" x="0" y="2.38" dx="5.8" dy="6.2" layer="1"/>
-<smd name="1" x="-2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
-<smd name="3" x="2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
-<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
-<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-2.5654" y="3.937"/>
-<vertex x="-2.5654" y="4.6482"/>
-<vertex x="-2.1082" y="5.1054"/>
-<vertex x="2.1082" y="5.1054"/>
-<vertex x="2.5654" y="4.6482"/>
-<vertex x="2.5654" y="3.937"/>
-</polygon>
-</package>
-<package name="TO220L1" urn="urn:adsk.eagle:footprint:30309/1" library_version="5">
-<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
-<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
-<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
-<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
-<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="10">A15,2mm</text>
-<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">2</text>
-<text x="2.032" y="0" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
-<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
-<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
-<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
-<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
-<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
-<hole x="0" y="11.176" drill="3.302"/>
-</package>
-<package name="SOT223" urn="urn:adsk.eagle:footprint:30315/1" library_version="5">
-<description>&lt;b&gt;Small Outline Transistor 223&lt;/b&gt;&lt;p&gt;
-PLASTIC PACKAGE CASE 318E-04&lt;br&gt;
-Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
-<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="0" y1="-0.7" x2="0" y2="0.6" width="0.127" layer="48"/>
-<wire x1="0" y1="0.6" x2="-0.2" y2="0.2" width="0.127" layer="48"/>
-<wire x1="-0.2" y1="0.2" x2="0.2" y2="0.2" width="0.127" layer="48"/>
-<wire x1="0.2" y1="0.2" x2="0" y2="0.6" width="0.127" layer="48"/>
-<wire x1="0" y1="-0.7" x2="0.2" y2="-0.3" width="0.127" layer="48"/>
-<wire x1="0.2" y1="-0.3" x2="-0.2" y2="-0.3" width="0.127" layer="48"/>
-<wire x1="-0.2" y1="-0.3" x2="0" y2="-0.7" width="0.127" layer="48"/>
-<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
-<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
-<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
-<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
-<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
-<text x="0.4" y="0.4" size="0.254" layer="48">direction of pcb</text>
-<text x="0.4" y="-0.05" size="0.254" layer="48">transportation for</text>
-<text x="0.4" y="-0.5" size="0.254" layer="48">wavesoldering</text>
-<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
-<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
-<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
-<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
-</package>
-<package name="D2PACK" urn="urn:adsk.eagle:footprint:29392/1" library_version="5">
-<description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
-INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
-<wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
-<wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
-<wire x1="3.1242" y1="5.8166" x2="-3.3782" y2="5.8166" width="0.254" layer="51"/>
-<wire x1="-3.3782" y1="5.8166" x2="-5.1308" y2="4.699" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="4.699" x2="-5.1308" y2="4.445" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="4.445" x2="-5.1308" y2="-4.0894" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="4.445" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
-<wire x1="-5.1308" y1="-4.0894" x2="-5.1308" y2="-2.3114" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="-2.3114" width="0.254" layer="21"/>
-<smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
-<smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
-<smd name="2" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
-<text x="-5.588" y="7.239" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.0988" y1="-9.525" x2="-1.9812" y2="-8.1026" layer="51"/>
-<rectangle x1="-3.2512" y1="-8.1534" x2="-1.8288" y2="-6.731" layer="51"/>
-<rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
-<rectangle x1="1.9812" y1="-9.525" x2="3.0988" y2="-8.1026" layer="51"/>
-<rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
-<rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
-<rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DPACK" urn="urn:adsk.eagle:package:30369/1" type="box" library_version="5">
-<description>DPAK
-PLASTIC PACKAGE CASE 369C-01
-Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
-<packageinstances>
-<packageinstance name="DPACK"/>
-</packageinstances>
-</package3d>
-<package3d name="TO220L1" urn="urn:adsk.eagle:package:30365/1" type="box" library_version="5">
-<description>VOLTAGE REGULATOR</description>
-<packageinstances>
-<packageinstance name="TO220L1"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:30370/1" type="box" library_version="5">
-<description>Small Outline Transistor 223
-PLASTIC PACKAGE CASE 318E-04
-Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
-<packageinstances>
-<packageinstance name="SOT223"/>
-</packageinstances>
-</package3d>
-<package3d name="D2PACK" urn="urn:adsk.eagle:package:29497/2" type="model" library_version="5">
-<description>D2PACK
-INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
-<packageinstances>
-<packageinstance name="D2PACK"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="78ADJ" urn="urn:adsk.eagle:symbol:30281/1" library_version="5">
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">ADJ</text>
-<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
-<text x="0.127" y="-0.635" size="1.524" layer="95">OUT</text>
-<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LD117A?*" urn="urn:adsk.eagle:component:30422/3" prefix="IC" library_version="5">
-<description>&lt;b&gt;Low drop fixed and adjustable positive voltage regulators&lt;/b&gt; 1 A&lt;p&gt;
-Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</description>
-<gates>
-<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DT" package="DPACK">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30369/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="12TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="18TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="25TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="28TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="33TR">
-<attribute name="POPULARITY" value="2" constant="no"/>
-</technology>
-<technology name="50TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="V" package="TO220L1">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30365/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="12">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="18">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="25">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="28">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="33">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="50">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S" package="SOT223">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30370/1"/>
-</package3dinstances>
-<technologies>
-<technology name="12TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="18TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="25TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="28TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="33TR">
-<attribute name="POPULARITY" value="9" constant="no"/>
-</technology>
-<technology name="50TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2MTR" package="D2PACK">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29497/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18086,6 +17780,71 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="regulator">
+<packages>
+<package name="TO220S-VERTICAL">
+<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-5.9182" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
+<rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
+<rectangle x1="-0.889" y1="-0.762" x2="0.889" y2="0" layer="21"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="0" layer="21"/>
+<rectangle x1="1.651" y1="-0.762" x2="3.429" y2="0" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="78ADJ">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">ADJ</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.127" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LD117AV33-VERTICAL">
+<gates>
+<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO220S-VERTICAL">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18099,7 +17858,6 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U1" library="ATMEGA328P-AU" library_urn="urn:adsk.eagle:library:35137849" deviceset="ATMEGA328P-AU" device="" package3d_urn="urn:adsk.eagle:package:35137852/1"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="V" package3d_urn="urn:adsk.eagle:package:30365/1" technology="33"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
 <part name="Q1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" package3d_urn="urn:adsk.eagle:package:26647/2" value="16mhz"/>
@@ -18142,6 +17900,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="CONNECTORS" deviceset="MINI-USB_5P" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="claudobip-hdmi-cec"/>
+<part name="IC1" library="regulator" deviceset="LD117AV33-VERTICAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18163,10 +17922,6 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="T2" gate="G1" x="170.18" y="132.08" smashed="yes">
 <attribute name="NAME" x="160.02" y="139.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.02" y="137.16" size="1.778" layer="96"/>
-</instance>
-<instance part="IC1" gate="G$1" x="223.52" y="124.46" smashed="yes">
-<attribute name="NAME" x="226.06" y="116.84" size="1.778" layer="95"/>
-<attribute name="VALUE" x="226.06" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="104.14" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.6" y="55.3974" size="1.778" layer="95" rot="R180"/>
@@ -18316,6 +18071,10 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
+<instance part="IC1" gate="G$1" x="223.52" y="124.46" smashed="yes">
+<attribute name="NAME" x="226.06" y="116.84" size="1.778" layer="95"/>
+<attribute name="VALUE" x="226.06" y="114.3" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18364,14 +18123,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="91.44" y1="53.34" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="ADJ"/>
-<wire x1="223.52" y1="114.3" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="210.82" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<junction x="223.52" y="116.84"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="144.78" y1="93.98" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
@@ -18405,6 +18156,14 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="X2" gate="G41" pin="5"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="218.44" y1="73.66" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="ADJ"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="223.52" y1="116.84" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="210.82" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
+<junction x="223.52" y="116.84"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -18448,9 +18207,9 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="218.44" y1="83.82" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="215.9" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="210.82" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="215.9" y1="124.46" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <junction x="215.9" y="124.46"/>
@@ -18524,11 +18283,6 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="231.14" y1="124.46" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="129.54" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
@@ -18543,6 +18297,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="27.94" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="40.64" y1="149.86" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="231.14" y1="124.46" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">

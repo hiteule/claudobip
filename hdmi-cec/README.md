@@ -12,6 +12,7 @@ The additional [libraries] used are:
 * ATMEGA328P-AU.lbr
 * CONNECTORS.lbr
 * NRF24L01.lbr
+* regulator.lbr
 
 ## Software
 
