@@ -16,7 +16,16 @@ The additional [libraries] used are:
 
 ## Software
 
-TODO
+The firmware turns on the TV when it receives the instruction "workday_start" via the radio and turn it off when it receive the instruction "workday_end".
+After turning on the TV it switches to the HDMI2 input automatically. This value is hardcoded.
+
+The HDMI-CEC management is handled by a custom library. You will find the information in the dedicated readme.
+
+The firmware is compiled and uploaded with the Arduino IDE.
+
+The additional libraries used are:
+* NRFLite: Handle the radio management. You will found it in the official Arduino repo.
+* CEC: Handle the CEC protocol. You will found it in the "libraries" directory.
 
 [Eagle]:     https://www.autodesk.fr/products/eagle
 [libraries]: https://github.com/hiteule/eagle-library
